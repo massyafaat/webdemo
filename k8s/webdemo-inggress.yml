@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: webk8s
+  annotations:
+    kubernetes.io/ingress.class: nginx
+spec:
+  rules:
+  - host: webk8s.demos.ms-biznetgio.net
+    http:
+      paths:
+      - backend:
+          serviceName: webdemo
+          servicePort: 80
