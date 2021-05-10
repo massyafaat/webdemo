@@ -1,6 +1,6 @@
 FROM alpine:latest
 RUN apk update \
-  && apk add --no-cache nginx \
+  && apk add --no-cache nginx php7-fpm \
     supervisor
 
 COPY nginx.conf /etc/nginx/nginx.conf
