@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Managed Service</title>
+	<title>Managed Service V3</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -48,7 +48,7 @@
 		<div class="flex-w flex-sa p-r-200 respon1">
 			<div class="p-t-34 p-b-60 respon3">
 				<p class="l1-txt1 p-b-10 respon2">
-					CI/CD Demo
+					CI/CD Demo V3
 				</p>
 
 				<h3 class="l1-txt2 p-b-45 respon2 respon4">
